@@ -42,20 +42,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-					<argLine>-Dfile.encoding=utf-8</argLine>
-					<properties>
-						<property>
-							<name>usedefaultlisteners</name>
-							<value>false</value>
-						</property>
-						<property>
-							<name>listener</name>
-							<value>org.uncommons.reportng.HTMLReporter,
-								org.uncommons.reportng.JUnitXMLReporter</value>
-						</property>
-					</properties>
 					<suiteXmlFiles>
-						<!-- <file>src/test/resources/testngRemote.xml</file> -->
 						<file>src/test/resources/testngRemote.xml</file>
 					</suiteXmlFiles>
 					<!-- <workingDirectory>target/</workingDirectory> -->
