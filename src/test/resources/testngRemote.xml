@@ -11,7 +11,7 @@
 		<packages>
 		</packages>
 		<classes>
-			<class name="seleniumDemo.seleniumDemo.ParallelClassesTestOne2">
+			<class name="test.ParallelClassesTestOne2">
 				<!--<methods> </methods> -->
 			</class>
 		</classes>

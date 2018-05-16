@@ -1,4 +1,4 @@
-package seleniumDemo.seleniumDemo;
+package test;
 
 import java.io.IOException;
 
