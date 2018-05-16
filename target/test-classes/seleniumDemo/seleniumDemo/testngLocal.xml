@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="基础设置">
+	<test name="loginTest_chrome" parallel="methods" thread-count="2">
+		<groups>
+			<run>
+				<!-- <include name="base" /> -->
+			</run>
+		</groups>
+		<packages>
+		</packages>
+		<classes>
+			<class name="seleniumDemo.seleniumDemo.ParallelClassesTestOne2">
+				<!--<methods> </methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

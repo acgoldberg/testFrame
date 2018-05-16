@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="seleniumDemo.seleniumDemo.ParallelClassesTestOne2">
+        <methods>
+          <include name="testMethodOne4"/>
+          <include name="testMethodOne6"/>
+          <include name="testMethodOne3"/>
+          <include name="before"/>
+          <include name="testMethodOne8"/>
+          <include name="testMethodOne7"/>
+          <include name="testMethodOne1"/>
+          <include name="testMethodOne5"/>
+          <include name="testMethodOne2"/>
+          <include name="testMethodOne"/>
+        </methods>
+      </class> <!-- seleniumDemo.seleniumDemo.ParallelClassesTestOne2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
